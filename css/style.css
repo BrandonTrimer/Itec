@@ -1680,7 +1680,9 @@ textarea.form-input {
 .tab-panel {
   padding-top: 24px;
   padding-bottom: 24px;
+  
 }
+
 .tab-panel:not(.is-active) {
   display: none !important;
 }
@@ -3476,12 +3478,16 @@ ul.pricing-item-features-list li.is-checked::after {
 }
 
 .cont-imagen > .img-itec{
-  mask-image: linear-gradient(black 85%, transparent);
-  border-radius: 20%;
+  mask-image: linear-gradient(black 100%, transparent);
+  border-radius: 50%;
 }
 .cont-imagen > .img-carreras{
-  mask-image: linear-gradient(black 85%, transparent);
-  border-radius: 3%;
+  mask-image: linear-gradient(black 80%, transparent);
+  border-radius: 50px;
+}
+
+.border{
+  border: solid red 5px;
 }
 
 
