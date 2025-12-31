@@ -3479,7 +3479,7 @@ ul.pricing-item-features-list li.is-checked::after {
 
 .cont-imagen > .img-itec{
   mask-image: linear-gradient(black 100%, transparent);
-  border-radius: 50%;
+  border-radius: 50px;
 }
 .cont-imagen > .img-carreras{
   mask-image: linear-gradient(black 80%, transparent);
